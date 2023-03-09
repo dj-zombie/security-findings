@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import styles from './LoadingSpinner.module.css'
+import styles from './LoadingSpinner.module.scss'
 
 /**
  * A component that displays a loading spinner animation.

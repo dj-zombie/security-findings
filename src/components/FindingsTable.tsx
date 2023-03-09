@@ -3,7 +3,7 @@ import DataTable from 'react-data-table-component';
 import RawFindings from './RawFindingsTable'
 import { Finding } from '../interfaces/finding'
 import { orderBy } from 'lodash'
-
+import '../styles/tables.scss'
 
 type Severity = 'critical' | 'high' | 'medium' | 'low';
 

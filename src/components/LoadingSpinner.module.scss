@@ -1,5 +1,14 @@
+//
+// Loading Spinner
+//
+
+// Note: This is just to show another direction that could
+// be taken to style components using modules that are scoped.
+// A real worl application this should follow the same pattern
+// as the rest of the application.
+
 @keyframes spin {
-  100%{
+  100% {
     transform: rotatez(360deg);
   }
 }

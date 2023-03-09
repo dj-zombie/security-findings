@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import '../styles/404.scss';
 
 const NotFoundPage: React.FC = () => {
   return (

@@ -1,0 +1,61 @@
+//
+// Table styling
+//
+
+.severity {
+  background-color: rgba(238, 130, 105, 1);
+  color: #fff;
+  font-weight: bold;
+  padding: 4px;
+  border-radius: 10px;
+  text-align: center;
+  width: 80px;
+
+  &.critical {
+    background-color: rgba(238, 130, 105, 1);
+  }
+  &.severity.high {
+    background-color: rgba(246, 201, 88, 1);
+  }
+  &.severity.high {
+    background-color: rgba(246, 201, 88, 1);
+  }
+  &.severity.medium {
+    background-color: rgba(184, 205, 233, 1);
+  }
+  &.severity.low {
+    background-color: rgba(169, 201, 139, 1);
+  }
+}
+
+.analyst {
+  clip-path: circle(40%);
+}
+
+.source-logo {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.progress-bar {
+  width: 100px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: rgb(235, 237, 240);
+
+  .inner {
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(40, 109, 172);
+  }
+}
+
+.num-findings {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: rgb(40, 109, 172);
+  color: #fff;
+  justify-content: center
+}
